@@ -8,3 +8,6 @@ rmi:
 
   3rd terminal:
   java Client
+
+
+clock_sync: python server.py, client.py
