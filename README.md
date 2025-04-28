@@ -1,6 +1,6 @@
 rmi:
   1st terminal: 
-    javac *.java
+    javac *.java,
     rmiRegistry
     
   2nd terminal:
