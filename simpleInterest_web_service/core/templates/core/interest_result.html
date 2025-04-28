@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Interest Result</title>
+</head>
+<body>
+    <h1>Simple Interest Result</h1>
+
+    <p><strong>Principal (P):</strong> {{ p }}</p>
+    <p><strong>Rate (R% per annum):</strong> {{ r }}</p>
+    <p><strong>Time (T years):</strong> {{ t }}</p>
+
+    <h2>Simple Interest = {{ si|floatformat:2 }}</h2>
+
+    <a href="{% url 'interest_input' %}">Calculate Again</a>
+</body>
+</html>
